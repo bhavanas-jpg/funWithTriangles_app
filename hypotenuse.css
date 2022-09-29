@@ -3,18 +3,15 @@
     padding: 0;
     margin: 0;
 }
-
 ul {
     list-style: none;
-    color: #3da8f4;
+    color: #319DA0;
 }
-
 body {
     background-color: #000;
-    color: #3da8f4;
+    color: #319DA0;
     font-family: 'Ubuntu', sans-serif;
 }
-
 .logo-sec {
     margin: 20px 10px 30px 50px;
 }
@@ -28,7 +25,6 @@ body {
     width: 55px;
     height: 55px;
 }
-
 nav {
     display: flex;
     justify-content: space-between;
@@ -41,67 +37,59 @@ nav {
 
 .nav-links li a {
     margin: 0px 20px 0 40px;
-    color: #3da8f4;
+    color: #319DA0;
     font-size: 22px;
     text-decoration: none;
     text-align: center;
 }
-
-.angle-unit {
-    font-size: 15px;
-}
-
 h3 {
-    margin: 10px auto;
+    margin: 5px auto;
     font-family: 'Ubuntu', sans-serif;
     font-size: 40px;
     font-weight: bold;
     text-align: center;
     letter-spacing: 5px;
+    border-bottom: 1px solid #bdf0f1;
     text-shadow: 3px 0px 7px rgba(104, 98, 81, 0.8), -3px 0px 7px rgba(3, 7, 22, 0.8), 0px 4px 7px rgb(81 67 21 / 80%);
 }
-
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
-label {
-    font-size: 30px;
-    letter-spacing: 2px;
-    margin-top: 8px;
-    margin-bottom: 10px;
+p{
+    font-size: 22px;
+    margin-top: 45px;
 }
 
-input {
-    width: 400px;
+input{
+    border: none;
+    outline: none;
     padding: 10px;
-    margin: 10px;
-    border-radius: 15px;
-    font-size: 20px;
-}
-
-input::placeholder {
-    font-size: 15px;
-}
-
-#is-triangle-btn {
-    font-weight: 700;
-    font-size: 20px;
-    padding: 10px 30px;
-    margin-top: 10px;
     border-radius: 20px;
-    color: #000;
-    cursor: pointer;
-    background-color: #3da8f4;
+    width: 300px;
+    font-size: 20px;
+    font-weight: 700;
 }
-
-#output {
-    font-size: 30px;
-    border: 1px solid #fff;
-    padding: 20px;
-    margin-top: 20px;
+input::placeholder{
+    font-size: 13px;
+}
+label{
+    margin: 30px 0 10px 0;
+}
+#hypotenuse-btn{
+    padding: 10px 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#output{
+    margin: 30px 0;
+    border: 1px solid #319DA0;
+    padding: 10px 20px;
+    font-size: 20px;
     display: none;
 }

@@ -4,16 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hypotenuse.css">
     <title>Hypotenuse</title>
 </head>
 <body>
-    <h1>Calculate Hypotenuse</h1>
-    <label>a =</label>
-    <input type="number" class="side-input" />
-    <label>b =</label>
-    <input type="number" class="side-input" />
+    <!---navbar: start-->
+ <nav>
+    <div class="logo-sec">
+        <img  class="logo-image"src="triangle.jpg" alt="logoImage"/>
+        <span id="logo-text">Triangle</span>
+    </div>
+    <ul class="nav-links">
+        <li><a href="index.html">Is Triangle?</a></li>
+        <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="#">Hypotenuse</a></li>
+        <li><a href="area.html">Area of Triangle</a></li>
+    </ul>
+  </nav>
+  <!---navbar: end-->
+    <div class="container">
+    <h3>Calculate Hypotenuse</h3>
+    <p>Enter perpendicular and base to calculate hypotenuse :</p>
+    <label>Perpendicular </label>  
+    <input type="number" class="side-input"
+    placeholder="enter the perpendicular" />
+    <label>Base </label>
+    <input type="number" class="side-input"
+    placeholder="enter the base"  />
     <button id="hypotenuse-btn">Calculate Hypotenuse</button>
     <div id="output"></div>
+    </div>
     <script src="hypotenuse.js"></script>
 </body>
 </html>
